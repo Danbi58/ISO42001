@@ -2,7 +2,7 @@
 
 > A practitioner-focused reference for understanding and implementing ISO/IEC 42001:2023 — the international standard for AI Management Systems.
 
-Written for solution architects, technology managers, governance leads, and consultants working with AI systems in regulated or enterprise environments. Not a summary. Not a sales pitch. A working reference that will grow over time.
+Written for solution architects, technology managers, governance leads, and consultants working with AI systems in regulated or enterprise environments. Not a summary. Not a sales pitch. A working reference that will grow over time as things evolve.
 
 ---
 
@@ -197,9 +197,25 @@ For financial services specifically, the EU AI Act creates direct liability for 
 
 ### Australia
 
-Australia's AI governance framework has been developing through 2025–2026, building on the Voluntary AI Safety Standard and the APS AI Policy for government agencies. ISO 42001 provides a structured, internationally recognised baseline that aligns with the direction of Australian regulatory thinking, particularly for regulated sectors (financial services, healthcare, critical infrastructure) and government procurement, where governance requirements are tightening.
+Australia's AI governance landscape moved from voluntary guidance to a more structured, multi-layer framework through 2025–2026. The approach differs materially from the EU — Australia relies primarily on existing law with targeted guidance layered over it, rather than prescriptive sector-specific AI legislation. For organisations supplying AI to government or operating in regulated sectors, ISO 42001 is increasingly becoming the expected evidence of governance maturity, not because it is mandated, but because it provides an auditable answer to the question regulators and procurement teams are asking: *how do you govern your AI?*
 
-The Privacy Act reforms and the evolving framework from the OAIC also intersect with ISO 42001's data governance controls.
+**[Guidance for AI Adoption](https://www.industry.gov.au/publications/guidance-for-ai-adoption) — NAIC / DISR, October 2025**
+Published by the National AI Centre under the Department of Industry, Science and Resources, this guidance formally replaces the Voluntary AI Safety Standard (VAISS). It consolidates the VAISS's 10 guardrails into six responsible AI practices: governance and accountability, impact assessment, risk management, transparency, testing and monitoring, and human oversight. These six practices map closely to ISO 42001 Clause 5/6/8/9 requirements and Annex A controls — the conceptual alignment is strong.
+
+**[Policy for the Responsible Use of AI in Government v2.0](https://www.digital.gov.au/ai/ai-in-government-policy) — DTA, December 2025**
+The updated APS AI Policy came into effect December 2025. It requires government agencies to develop a strategic approach to AI adoption, establish designated accountability for AI use cases, and undertake risk-based use case-level governance actions. This is the Australian equivalent of a management system requirement for government AI — ISO 42001 provides the internationally recognised structure that operationalises exactly this.
+
+**[AI Impact Assessment Tool](https://www.digital.gov.au/ai/impact-assessment-tool/introduction) — DTA**
+The DTA's AI Impact Assessment Tool helps government teams identify, assess, and manage AI use case risks against Australia's AI Ethics Principles. Agencies are required to implement this for in-scope use cases by December 2026. It is conceptually equivalent to ISO 42001 Clause 8.2 (AI System Impact Assessment) — organisations already operating under ISO 42001 have the governance structure to meet this requirement.
+
+**[AI Procurement Guidance and AI Technical Standard](https://www.dta.gov.au/media-releases/ai-policy-overhauled-new-impact-assessment-tool-and-procurement-guidance) — DTA**
+The DTA has published AI procurement guidance, model AI contract clauses, and an AI Technical Standard for the design, procurement, and deployment of AI systems by government agencies. Directly relevant for organisations supplying AI into government — ISO 42001 certification is a strong evidence base for demonstrating conformance with these requirements.
+
+**[National Framework for the Assurance of AI in Government](https://www.finance.gov.au/government/public-data/data-and-digital-ministers-meeting/national-framework-assurance-artificial-intelligence-government) — Department of Finance**
+Addresses how government agencies can assure themselves that AI systems are performing as intended. Intersects with ISO 42001 Clause 9 (performance evaluation) and the monitoring and internal audit requirements.
+
+**[Information Security Manual (ISM)](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism) — ASD**
+The Australian Signals Directorate's ISM is the mandatory cyber security framework for government agencies and a reference point for regulated industry. Not AI-specific, but it applies to AI systems as technology systems — its controls around system lifecycle, access, data integrity, and monitoring directly intersect with ISO 42001's operational and data governance controls. Updated quarterly; the June 2025 version is current. Organisations implementing ISO 42001 for government-facing AI systems should read it alongside ISO 27001 and their sector-specific requirements.
 
 ### Sector-Specific Overlays
 
@@ -213,9 +229,9 @@ ISO 42001 does not replace these. It provides the governance architecture into w
 
 ---
 
-## Free Resources
+## Free Resources (coming soon)
 
-The following resources are available as free downloads from [AIrchitect](https://airchitect.com.au). They are working documents — designed to be used, not filed.
+The following resources will be available soon as free downloads from [AIrchitect](https://airchitect.com.au). They are working documents — designed to be used, not filed.
 
 | Resource | Format | What It Is |
 |----------|--------|-----------|
@@ -241,7 +257,7 @@ This repository is a working reference, not a polished product. Corrections, add
 
 ## About
 
-Maintained by [Dani Storey](https://www.linkedin.com/in/danielle-storey/) — AI governance practitioner and founder of [Valkurai](https://valkurai.com) and [AIrchitect](https://airchitect.com.au).
+Maintained by [Dani Storey]((https://au.linkedin.com/in/danistorey)) — Digital Modernisation, Architect, AI governance practitioner and founder of [Valkurai](https://valkurai.com) and [AIrchitect](https://airchitect.com.au).
 
 This is a free educational resource. The examples used throughout reflect real governance patterns observed in enterprise AI deployments. Where specific products or approaches are referenced, they are illustrative, not endorsements.
 
