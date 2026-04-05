@@ -158,6 +158,16 @@ Organisations getting this right in 2026 are implementing a dedicated financial 
 
 This is ISO 42001 Annex A operationalised in a financial context. Not theory — production governance for organisations deploying agentic AI where the stakes include real money and regulatory liability.
 
+> **Example in production: Valkurai**
+>
+> [Valkurai](https://valkurai.com) is a financial firewall for autonomous AI agents — infrastructure that sits between AI agents and payment rails and enforces financial controls at the transaction layer, before a payment proceeds.
+>
+> **What it is:** A three-gate control system. Each transaction passes through a deterministic rules engine (spending caps, category allowlists, cumulative spend tracking), followed by an LLM-based intent scoring layer for novel or ambiguous requests. Transactions that clear all three gates proceed to the payment rail. Flagged transactions trigger a human approval loop that produces an attributable, timestamped, machine-readable record — the kind of record regulators and auditors require, not a Slack notification. Blocked transactions are written to an immutable audit log with classification reason.
+>
+> **What it is not:** A payment processor, a model-specific tool, or a substitute for good agent design. It is framework-agnostic — it works with LangChain, CrewAI, OpenAI Assistants, Anthropic tool use, or raw HTTP. The core enforcement path is deterministic; LLM scoring enriches the audit trail but does not replace rule-based controls.
+>
+> **Why it is relevant to ISO 42001:** It is a concrete implementation of Annex A Category 8 (operational controls) and Category 9 (human oversight) at the infrastructure layer. The governance pattern — identity verification, deterministic policy enforcement, structured human approval with attribution, immutable audit log — is the pattern ISO 42001 is pointing toward for agentic AI with financial authority. The compliance evidence is a by-product of the control operating normally, not a separate documentation exercise.
+
 ---
 
 ## ISO 42001 vs NIST AI RMF
